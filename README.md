@@ -18,6 +18,13 @@ To play the game, run the `Trivia-V10.py` file.
 - Basic input validation and game flow control
 
 
+## Tech Stack
+- Python 3
 
+## How to Run
+1. Clone the repository
+2. Install Python 3 if you don't have it
+3. Run:
+   python Trivia-V10.py
 
 
