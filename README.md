@@ -10,3 +10,14 @@ To play the game, run the `Trivia-V10.py` file.
 ![GitHub last commit](https://img.shields.io/github/last-commit/PurpleFlower436/Trivia_Smackdown)
 [![GitHub last commit](https://img.shields.io/github/last-commit/PurpleFlower436/Trivia_Smackdown)](https://github.com/PurpleFlower436/Trivia_Smackdown/commits/main)
 
+
+## Features
+- Two-player terminal-based game in Python
+- Category and difficulty selection for each player
+- Scoring system that tracks correct answers
+- Basic input validation and game flow control
+
+
+
+
+
