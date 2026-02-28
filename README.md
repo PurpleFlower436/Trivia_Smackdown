@@ -1,7 +1,9 @@
 # Trivia_Smackdown
 
-This is a two player Python trivia game that is played in the terminal of your preferred IDE. Users can pick between four categories and easy or hard questions. The categories are Marvel, History, Disney World, and Pop Culture. 
-Once the users pick their category and difficulty level, they will play through five questions. Once they finish the last question, they can choose to keep playing or quit. If the users choose to quit, they will see their score at the end and who the winner is. If the users choose to continue, they will be prompted to pick another category and difficulty level of questions. The Trivia-V10.py file is the file that contains the trivia game. 
+This is a two-player Python trivia game played in the terminal. Each player chooses from four categories (Marvel, History, Disney World, Pop Culture) and an easy or hard difficulty, then answers five questions per round. After each round, players can choose to continue with a new category/difficulty or quit and see their final scores and the winner. 
+
+To play the game, run the `Trivia-V10.py` file.
+
 
 ![Python Badge](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Commit Activity](https://img.shields.io/github/commit-activity/m/PurpleFlower436/Trivia_Smackdown)
