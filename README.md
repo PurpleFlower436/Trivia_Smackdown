@@ -4,6 +4,11 @@ This is a two-player Python trivia game played in the terminal. Each player choo
 
 To play the game, run the `Trivia-V10.py` file.
 
+This is a screenshot of Trivia Smackdown being played in the terminal in VS Code.
+
+<img width="1542" height="396" alt="trivia_smackdown_demo" src="https://github.com/user-attachments/assets/9735b6ec-c4b8-4877-8736-0c1c3ae3ebe0" />
+
+
 
 ![Python Badge](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Commit Activity](https://img.shields.io/github/commit-activity/m/PurpleFlower436/Trivia_Smackdown)
