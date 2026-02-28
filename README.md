@@ -28,3 +28,7 @@ To play the game, run the `Trivia-V10.py` file.
    python Trivia-V10.py
 
 
+## What I Implemented
+- Game loop and user input flow for two players
+- Scoring and category-selection logic
+- Tested the game by playing it repeatedly to debug issues and ensure correct game flow and results
