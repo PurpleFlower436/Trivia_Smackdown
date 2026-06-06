@@ -75,32 +75,32 @@ MARVEL_HARD = [
     {
         "question": "In Spider-Man No Way Home, how does Peter trap Dr. Strange in the mirror dimension?",
         "choices": {
-            "i": "Peter webs Dr. Strange to a piece of the canyon",
-            "j": "Peter uses his webs to create a archimedes spiral",
-            "k": "Peter webs Dr. Strange to the train",
-            "l": "Peter casts a spell that makes Dr. Strange fall through a portal"
+            "a": "Peter webs Dr. Strange to a piece of the canyon",
+            "b": "Peter uses his webs to create a archimedes spiral",
+            "c": "Peter webs Dr. Strange to the train",
+            "d": "Peter casts a spell that makes Dr. Strange fall through a portal"
         },
-        "answer": "j"
+        "answer": "b"
     },
     {
         "question": "Who said this line to Loki in the Disney+ series Loki: “Your job is to help others become the best versions of themselves”",
         "choices": {
-            "m": "Mobius",
-            "n": "Ravonna Renslayer",
-            "o": "Sylvie",
-            "p": "Hunter B-15"
+            "a": "Mobius",
+            "b": "Ravonna Renslayer",
+            "c": "Sylvie",
+            "d": "Hunter B-15"
         },
-        "answer": "m"
+        "answer": "a"
     },
     {
         "question": "What does Tony tell Peter when he sees him being beamed up into Ebony Maw’s Q-ship?",
         "choices": {
-            "q": "You're too high up, you're running out of air",
-            "r": "But you said save the wizard",
-            "s": "Pete, you gotta let go I’m gonna catch you",
-            "t": "Kid, where did you come from?"
+            "a": "You're too high up, you're running out of air",
+            "b": "But you said save the wizard",
+            "c": "Pete, you gotta let go I’m gonna catch you",
+            "d": "Kid, where did you come from?"
         },
-        "answer": "s"
+        "answer": "c"
     }
 ]
 
@@ -118,42 +118,42 @@ HISTORY_EASY = [
     {
         "question": "What is the tallest building in the world?",
         "choices": {
-            "e": "Willis Tower in Chicago",
-            "f": "Burj Khalifa in Dubai",
-            "g": "Shanghai Tower in China",
-            "h": "One World Trade Center in New York City"
+            "a": "Willis Tower in Chicago",
+            "b": "Burj Khalifa in Dubai",
+            "c": "Shanghai Tower in China",
+            "d": "One World Trade Center in New York City"
         },
-        "answer": "f"
+        "answer": "b"
     },
     {
         "question": "When did World War I start?",
         "choices": {
-            "i": "1928",
-            "j": "1901",
-            "k": "1916",
-            "l": "1914"
+            "a": "1928",
+            "b": "1901",
+            "c": "1916",
+            "d": "1914"
         },
-        "answer": "l"
+        "answer": "d"
     },
     {
         "question": "Which country had the world’s first newspaper?",
         "choices": {
-            "m": "England",
-            "n": "United States of America",
-            "o": "China",
-            "p": "Canada"
+            "a": "England",
+            "b": "United States of America",
+            "c": "China",
+            "d": "Canada"
         },
-        "answer": "o"
+        "answer": "c"
     },
     {
         "question": "Which is the largest country in the world based on population?",
         "choices": {
-            "q": "India",
-            "r": "United States of America",
-            "s": "China",
-            "t": "Indonesia"
+            "a": "India",
+            "b": "United States of America",
+            "c": "China",
+            "d": "Indonesia"
         },
-        "answer": "s"
+        "answer": "c"
     }
 ]
 
@@ -171,42 +171,42 @@ HISTORY_HARD = [
     {
         "question": "What is considered the largest empire in history?",
         "choices": {
-            "e": "Han Dynasty",
-            "f": "Mongol Empire",
-            "g": "Ottoman Empire",
-            "h": "Russian Empire"
+            "a": "Han Dynasty",
+            "b": "Mongol Empire",
+            "c": "Ottoman Empire",
+            "d": "Russian Empire"
         },
-        "answer": "f"
+        "answer": "b"
     },
     {
         "question": "What was the name of the group formed to maintain world peace after WWI?",
         "choices": {
-            "i": "League of Legends",
-            "j": "League of World Peace",
-            "k": "League of Nations",
-            "l": "League of Alliance"
+            "a": "League of Legends",
+            "b": "League of World Peace",
+            "c": "League of Nations",
+            "d": "League of Alliance"
         },
-        "answer": "k"
+        "answer": "c"
     },
     {
         "question": "The Great Pyramid was built as a tomb for which pharaoh?",
         "choices": {
-            "m": "Khufu",
-            "n": "Neferirkare Kakai",
-            "o": "Userkaf",
-            "p": "Sahure"
+            "a": "Khufu",
+            "b": "Neferirkare Kakai",
+            "c": "Userkaf",
+            "d": "Sahure"
         },
-        "answer": "m"
+        "answer": "a"
     },
     {
         "question": "How many languages are estimated to be spoken around the world?",
         "choices": {
-            "q": "8000",
-            "r": "2500",
-            "s": "500",
-            "t": "7100"
+            "a": "8000",
+            "b": "2500",
+            "c": "500",
+            "d": "7100"
         },
-        "answer": "t"
+        "answer": "d"
     }
 ]
 
@@ -224,42 +224,42 @@ DISNEY_EASY = [
     {
         "question": "Who are the Fab 5?",
         "choices": {
-            "e": "Tinkerbell, Cinderella, Snow White, Peter Pan, and Fairy Godmother",
-            "f": "Mickey, Minnie, Donald, Goofy, and Pluto",
-            "g": "Mulan, Belle, Anna, Elsa, and Aurora",
-            "h": "Captain Jack Sparrow, Mirabel, Mrs. Incredible, Captain America, and Loki"
+            "a": "Tinkerbell, Cinderella, Snow White, Peter Pan, and Fairy Godmother",
+            "b": "Mickey, Minnie, Donald, Goofy, and Pluto",
+            "c": "Mulan, Belle, Anna, Elsa, and Aurora",
+            "d": "Captain Jack Sparrow, Mirabel, Mrs. Incredible, Captain America, and Loki"
         },
-        "answer": "f"
+        "answer": "b"
     },
     {
         "question": "What is the smallest theme park at Disney World?",
         "choices": {
-            "i": "EPCOT",
-            "j": "Disney's Animal Kingdom",
-            "k": "Magic Kingdom",
-            "l": "Hollywood Studios"
+            "a": "EPCOT",
+            "b": "Disney's Animal Kingdom",
+            "c": "Magic Kingdom",
+            "d": "Hollywood Studios"
         },
-        "answer": "k"
+        "answer": "c"
     },
     {
         "question": "What is the fastest ride at Disney World?",
         "choices": {
-            "m": "Test Track - 65 mph",
-            "n": "Rock ‘n’ Roller Coaster - 57mph",
-            "o": "Summit Plummet - 60mph",
-            "p": "The Monorail - 55 mph"
+            "a": "Test Track - 65 mph",
+            "b": "Rock ‘n’ Roller Coaster - 57mph",
+            "c": "Summit Plummet - 60mph",
+            "d": "The Monorail - 55 mph"
         },
-        "answer": "m"
+        "answer": "a"
     },
     {
         "question": "Which Disney park opened on Earth Day?",
         "choices": {
-            "q": "Typhoon Lagoon",
-            "r": "Blizzard Beach",
-            "s": "Magic Kingdom",
-            "t": "Disney’s Animal Kingdom"
+            "a": "Typhoon Lagoon",
+            "b": "Blizzard Beach",
+            "c": "Magic Kingdom",
+            "d": "Disney’s Animal Kingdom"
         },
-        "answer": "t"
+        "answer": "d"
     }
 ]
 
@@ -277,42 +277,42 @@ DISNEY_HARD = [
     {
         "question": "How tall is Cinderella’s castle?",
         "choices": {
-            "e": "200ft",
-            "f": "160ft",
-            "g": "400ft",
-            "h": "189ft"
+            "a": "200ft",
+            "b": "160ft",
+            "c": "400ft",
+            "d": "189ft"
         },
-        "answer": "h"
+        "answer": "d"
     },
     {
         "question": "What are the three mountains called in Magic Kingdom?",
         "choices": {
-            "i": "Everest Mountain, Thunder Mountain, Slinky Dog Dash Mountain",
-            "j": "Space Mountain, Splash Mountain and Big Thunder Mountain",
-            "k": "Expedition Everest, The Monorail Mountain, Splash Mountain",
-            "l": "The Twilight Zone Tower of Terror, Tower Speedway, The Barnstormer"
+            "a": "Everest Mountain, Thunder Mountain, Slinky Dog Dash Mountain",
+            "b": "Space Mountain, Splash Mountain and Big Thunder Mountain",
+            "c": "Expedition Everest, The Monorail Mountain, Splash Mountain",
+            "d": "The Twilight Zone Tower of Terror, Tower Speedway, The Barnstormer"
         },
-        "answer": "j"
+        "answer": "b"
     },
     {
         "question": "What is the maximum score you can get on Buzz Lightyear’s Space Ranger Spin?",
         "choices": {
-            "m": "1,000,000",
-            "n": "600,000",
-            "o": "100,000",
-            "p": "999,999"
+            "a": "1,000,000",
+            "b": "600,000",
+            "c": "100,000",
+            "d": "999,999"
         },
-        "answer": "p"
+        "answer": "d"
     },
     {
         "question": "How fast is the drop in Splash Mountain?",
         "choices": {
-            "q": "60 mph",
-            "r": "40 mph",
-            "s": "70 mph",
-            "t": "200 mph"
+            "a": "60 mph",
+            "b": "40 mph",
+            "c": "70 mph",
+            "d": "200 mph"
         },
-        "answer": "r"
+        "answer": "b"
     }
 ]
 
