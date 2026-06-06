@@ -330,42 +330,42 @@ POP_CULTURE_EASY = [
     {
         "question": "How many Harry Potter books and movies are there?",
         "choices": {
-            "e": "8 books and 9 movies",
-            "f": "9 books and 8 movies",
-            "g": "7 books and 8 movies",
-            "h": "8 books and 7 movies"
+            "a": "8 books and 9 movies",
+            "b": "9 books and 8 movies",
+            "c": "7 books and 8 movies",
+            "d": "8 books and 7 movies"
         },
-        "answer": "g"
+        "answer": "c"
     },
     {
         "question": "What is the name of Michelle Obama’s memoir written in 2018?",
         "choices": {
-            "i": "Michelle Obama",
-            "j": "Becoming",
-            "k": "I am Michelle Obama",
-            "l": "American Grown"
+            "a": "Michelle Obama",
+            "b": "Becoming",
+            "c": "I am Michelle Obama",
+            "d": "American Grown"
         },
-        "answer": "j"
+        "answer": "b"
     },
     {
         "question": "What was the first non-English-language film to win Best Picture at the Oscars?",
         "choices": {
-            "m": "Minari",
-            "n": "Amour",
-            "o": "Roma",
-            "p": "Parasite"
+            "a": "Minari",
+            "b": "Amour",
+            "c": "Roma",
+            "d": "Parasite"
         },
-        "answer": "p"
+        "answer": "d"
     },
     {
         "question": "Who has the most Grammy awards?",
         "choices": {
-            "q": "Georg Solti",
-            "r": "Stevie Wonder",
-            "s": "Quincy Jones",
-            "t": "Jay-Z"
+            "a": "Georg Solti",
+            "b": "Stevie Wonder",
+            "c": "Quincy Jones",
+            "d": "Jay-Z"
         },
-        "answer": "q"
+        "answer": "a"
     }
 ]
 
@@ -383,42 +383,42 @@ POP_CULTURE_HARD = [
     {
         "question": "How many Grammy Awards does Beyoncé have?",
         "choices": {
-            "e": "29",
-            "f": "31",
-            "g": "28",
-            "h": "30"
+            "a": "29",
+            "b": "31",
+            "c": "28",
+            "d": "30"
         },
-        "answer": "g"
+        "answer": "c"
     },
     {
         "question": "Which is the highest grossing film?",
         "choices": {
-            "i": "Avatar",
-            "j": "Avengers: Endgame",
-            "k": "Titanic",
-            "l": "Frozen II"
+            "a": "Avatar",
+            "b": "Avengers: Endgame",
+            "c": "Titanic",
+            "d": "Frozen II"
         },
-        "answer": "i"
+        "answer": "a"
     },
     {
         "question": "How many million people watched the most viewed Super Bowl broadcast?",
         "choices": {
-            "m": "110",
-            "n": "112",
-            "o": "111",
-            "p": "114"
+            "a": "110",
+            "b": "112",
+            "c": "111",
+            "d": "114"
         },
-        "answer": "p"
+        "answer": "d"
     },
     {
         "question": "Who is the person with the highest Instagram follower count?",
         "choices": {
-            "q": "Lionel Messi",
-            "r": "Gigi Hadid",
-            "s": "Cristiano Ronaldo",
-            "t": "Selena Gomez"
+            "a": "Lionel Messi",
+            "b": "Gigi Hadid",
+            "c": "Cristiano Ronaldo",
+            "d": "Selena Gomez"
         },
-        "answer": "s"
+        "answer": "c"
     }
 ]
 
