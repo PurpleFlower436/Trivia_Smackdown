@@ -7,47 +7,47 @@ MARVEL_EASY = [
             "c": "five",
             "d": "two"
         },
-        "answer": "b"
+        "answer": "a"
     },
     {
         "question": "In which Avengers movie do the Avengers first assemble?",
         "choices": {
-            "e": "Avengers Infinity War",
-            "f": "Avengers Age of Ultron",
-            "g": "The Avengers",
-            "h": "Avengers Endgame"
+            "a": "Avengers Infinity War",
+            "b": "Avengers Age of Ultron",
+            "c": "The Avengers",
+            "d": "Avengers Endgame"
         },
-        "answer": "g"
+        "answer": "c"
     },
     {
         "question": "What gift does Peter give MJ in Spider-Man Far From Home?",
         "choices": {
-            "i": "notebook",
-            "j": "black dahlia bracelet",
-            "k": "black dahlia necklace",
-            "l": "drone"
+            "a": "notebook",
+            "b": "black dahlia bracelet",
+            "c": "black dahlia necklace",
+            "d": "drone"
         },
-        "answer": "k"
+        "answer": "c"
     },
     {
         "question": "In Thor: Ragnarok, how long does Loki say he was falling for?",
         "choices": {
-            "m": "thirty minutes",
-            "n": "twenty minutes",
-            "o": "forty minutes",
-            "p": "ten minutes"
+            "a": "thirty minutes",
+            "b": "twenty minutes",
+            "c": "forty minutes",
+            "d": "ten minutes"
         },
-        "answer": "m"
+        "answer": "b"
     },
     {
         "question": "What is the name of Thor's hammer?",
         "choices": {
-            "q": "Peggy",
-            "r": "Jonathan",
-            "s": "Storm Breaker",
-            "t": "Mjolnir"
+            "a": "Peggy",
+            "b": "Jonathan",
+            "c": "Storm Breaker",
+            "d": "Mjolnir"
         },
-        "answer": "t"
+        "answer": "d"
     }
 ]
 
@@ -65,12 +65,12 @@ MARVEL_HARD = [
     {
         "question": "What is Morgan's first line in Avengers Endgame?",
         "choices": {
-            "e": "Let’s go play",
-            "f": "Define lunch or be disintegrated",
-            "g": "I am Iron Man",
-            "h": "Hi Daddy"
+            "a": "Let’s go play",
+            "b": "Define lunch or be disintegrated",
+            "c": "I am Iron Man",
+            "d": "Hi Daddy"
         },
-        "answer": "f"
+        "answer": "b"
     },
     {
         "question": "In Spider-Man No Way Home, how does Peter trap Dr. Strange in the mirror dimension?",
@@ -421,3 +421,26 @@ POP_CULTURE_HARD = [
         "answer": "s"
     }
 ]
+
+
+QUESTION_BANK = {
+    "marvel": {
+        "easy": MARVEL_EASY,
+        "hard": MARVEL_HARD
+    },
+
+    "history": {
+        "easy": HISTORY_EASY,
+        "hard": HISTORY_HARD
+    },
+
+    "pop": {
+        "easy": POP_CULTURE_EASY,
+        "hard": POP_CULTURE_HARD
+    },
+
+    "disney": {
+        "easy": DISNEY_EASY,
+        "hard": DISNEY_HARD
+    }
+}
