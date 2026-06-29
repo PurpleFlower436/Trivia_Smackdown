@@ -28,3 +28,12 @@ def determine_winner(player1, player2):
     else:
         return "Its a tie!"
 
+
+
+def is_valid_input(user_input):
+    if user_input.isalpha() == True:
+        return user_input
+    else:
+        user_input = input("Try again! Enter a,b,c or d as your answer choice:")
+
+        return user_input
