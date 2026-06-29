@@ -31,9 +31,4 @@ def determine_winner(player1, player2):
 
 
 def is_valid_input(user_input):
-    if user_input.isalpha() == True:
-        return user_input
-    else:
-        user_input = input("Try again! Enter a,b,c or d as your answer choice:")
-
-        return user_input
+    return user_input.isalpha()
