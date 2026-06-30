@@ -14,6 +14,7 @@ This is a screenshot of Trivia Smackdown being played in the terminal in VS Code
 ![Commit Activity](https://img.shields.io/github/commit-activity/m/PurpleFlower436/Trivia_Smackdown)
 ![GitHub last commit](https://img.shields.io/github/last-commit/PurpleFlower436/Trivia_Smackdown)
 [![GitHub last commit](https://img.shields.io/github/last-commit/PurpleFlower436/Trivia_Smackdown)](https://github.com/PurpleFlower436/Trivia_Smackdown/commits/main)
+[![Python application](https://github.com/PurpleFlower436/Trivia_Smackdown/actions/workflows/python-app.yml/badge.svg)](https://github.com/PurpleFlower436/Trivia_Smackdown/actions/workflows/python-app.yml)
 
 
 ## Features
