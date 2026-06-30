@@ -35,7 +35,7 @@ def sample_trivia_questions():
             "d": "SpiderMan No Way Home"
         },
         "answer": "d"
-    },
+    }
     
     ]
     
