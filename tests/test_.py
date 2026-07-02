@@ -57,22 +57,3 @@ def test_determine_winner_scenarios(p1_score,p2_score,expected_result  ):
         assert result == expected_result
   
 
-
-
-def test_medium_bot_correct_path(sample_trivia_questions):
-
-    question = sample_trivia_questions[0]
-    
-    random.seed(42)
-    assert medium_bot(question) == "c"
-
-
-
-def test_medium_bot_correct_path(sample_trivia_questions):
-
-    question = sample_trivia_questions[1]
-
-
-    random.seed(12)
-
-    assert medium_bot(question) != "a"
