@@ -53,3 +53,12 @@ def easy_bot(current_question):
     easy_bot_answer = random.choice(all_choices)
 
     return easy_bot_answer
+
+
+def choose_computer_bot_mode(bot_choice, current_question):
+   
+
+    if bot_choice == "a":
+        return easy_bot(current_question)
+    elif bot_choice == "b":
+        return medium_bot(current_question)
