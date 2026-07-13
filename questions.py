@@ -7,7 +7,7 @@ MARVEL_EASY = [
             "c": "five",
             "d": "two"
         },
-        "answer": "a"
+        "answer": "c"
     },
     {
         "question": "In which Avengers movie do the Avengers first assemble?",
@@ -37,7 +37,7 @@ MARVEL_EASY = [
             "c": "forty minutes",
             "d": "ten minutes"
         },
-        "answer": "b"
+        "answer": "a"
     },
     {
         "question": "What is the name of Thor's hammer?",
@@ -434,7 +434,7 @@ QUESTION_BANK = {
         "hard": HISTORY_HARD
     },
 
-    "pop": {
+    "pop_culture": {
         "easy": POP_CULTURE_EASY,
         "hard": POP_CULTURE_HARD
     },
@@ -444,3 +444,15 @@ QUESTION_BANK = {
         "hard": DISNEY_HARD
     }
 }
+
+#print(QUESTION_BANK["marvel"]["easy"])
+
+
+
+"""
+for question in QUESTION_BANK["marvel"]["easy"]:
+    
+    print("\n" + question["question"] + "" + "\n")
+    for key, value in question["choices"].items():
+        print(key, value)
+"""
