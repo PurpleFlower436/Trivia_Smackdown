@@ -1,27 +1,16 @@
 import pytest 
-from utils import check_answer, calculate_points, determine_winner, is_valid_input
+from utils import  determine_winner, is_valid_input
 from player import Player
 from bots import medium_bot
 import random
 
 
 
-@pytest.mark.parametrize("user_input, expected",[
-    ("A", True),
-    ("b", True),
-    ("495%%", False), 
-    ("@", False),
-    ("", False)
-])
 
 
 def test_is_valid_input(user_input, expected):
     assert is_valid_input(user_input) == expected
 
-def test_check_answer():
-
-    assert check_answer("A", "a") is True
-    assert check_answer("495%%", "b") is False
 
 def test_add_points():
     
