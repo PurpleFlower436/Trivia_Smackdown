@@ -4,9 +4,11 @@ from questions import QUESTION_BANK
 
 
 
+
+
 def calculate_points(player_answer, correct_answer ):
 
-    if player_answer.lower() == correct_answer:
+    if player_answer.lower() == correct_answer.lower():
         return 10
     else:
         return 0
