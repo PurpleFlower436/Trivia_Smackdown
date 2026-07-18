@@ -4,6 +4,33 @@ from player import Player
 
 
 
+@pytest.mark.parametrize("user_input, expected_result", [
+    
+    ("a", True),
+    ("B", True),  
+    ("c", True),
+    ("D", True),
+    
+    
+    ("495%%", False),  
+    ("@", False),      
+    ("1", False),      
+    ("abc", False),    
+    ("", False),       
+    (" ", False)       
+])
+def test_is_valid_input_scenarios(user_input, expected_result):
+    """Verifies that is_valid_input only approves single valid choice letters (A-D)."""
+    assert is_valid_input(user_input) == expected_result
+
+
+
+
+
+
+
+
+
 @pytest.mark.parametrize("player_answer, correct_answer, expected_points", [
     ("c", "c", 10),
     ("B", "b", 10),
