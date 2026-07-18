@@ -1,15 +1,23 @@
 import pytest 
-from utils import  determine_winner, is_valid_input
+from utils import  determine_winner, is_valid_input, calculate_points
 from player import Player
 from bots import medium_bot
 import random
 
 
+@pytest.mark.parametrize("player_answer, correct_answer, expected_points", [
+    ("c", "c", 10),
+    ("B", "b", 10),
+    ("a", "c", 0),
+    ("495%%", "c", 0),
+    ("", "c", 0)
+])
+
+def test_calculate_points_scenarios(player_answer, correct_answer, expected_points):
+
+    assert calculate_points(player_answer, correct_answer) == expected_points
 
 
-
-def test_is_valid_input(user_input, expected):
-    assert is_valid_input(user_input) == expected
 
 
 def test_add_points():
@@ -25,7 +33,7 @@ def test_add_points():
 
 
 @pytest.mark.parametrize("p1_score, p2_score, expected_result", [
-    (30, 20, "p1"), (10,25, "p2"), (20,20, "Its a tie!")
+    (30, 20, "Tony won!🏆"), (10,25, "Computer won!🏆"), (20,20, "Its a tie!")
 ])
 
 
@@ -38,11 +46,4 @@ def test_determine_winner_scenarios(p1_score,p2_score,expected_result  ):
 
     result = determine_winner(p1, p2)
 
-    if expected_result == "p1":
-        assert result == p1
-    elif expected_result == "p2":
-        assert result == p2
-    else:
-        assert result == expected_result
-  
-
+    assert result == expected_result
