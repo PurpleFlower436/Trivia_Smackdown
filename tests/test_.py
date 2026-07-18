@@ -1,8 +1,7 @@
 import pytest 
 from utils import  determine_winner, is_valid_input, calculate_points
 from player import Player
-from bots import medium_bot
-import random
+
 
 
 @pytest.mark.parametrize("player_answer, correct_answer, expected_points", [
