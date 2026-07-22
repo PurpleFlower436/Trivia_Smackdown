@@ -28,7 +28,12 @@ def determine_winner(player1, player2):
 
 
 def is_valid_input(user_input):
-    return user_input.isalpha()
+    cleaned_user_answer = user_input.lower()
+
+    if len(cleaned_user_answer) == 1 and cleaned_user_answer in ["a", "b", "c", "d"]:
+        return True
+    else:
+        return False
 
 
 
