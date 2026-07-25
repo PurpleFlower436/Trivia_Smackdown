@@ -46,13 +46,14 @@ def newGame():
     
     user_decision = "Y"
     while user_decision == "Y":
-        user_picked_category = input(str("What category do you want? Type in the letter to the corresponding category \n a. marvel, b. history, c. pop culture, d. disney:"))
-
-        if user_picked_category not in ["a", "b", "c", "d"]:
-            
-
+        while True:
             user_picked_category = input(str("What category do you want? Type in the letter to the corresponding category \n a. marvel, b. history, c. pop culture, d. disney:"))
 
+            if user_picked_category in ["a", "b", "c", "d"]:
+                break
+            else:
+                print("Invalid category choice! Please enter a, b, c, or d for your category.")
+            
 
         category_map = {
             "a":"marvel",
@@ -69,15 +70,15 @@ def newGame():
         print("a) easy")
         print("b) medium")
 
-        
+
 
         computer_bot_choice = input("Choose computer bot choice: ").lower()
-    
+
         questions = load_questions(question_category, question_difficulty)
 
 
         for question in questions:
-        
+
             print("\n" + question["question"] + "" + "\n")
             for key, value in question["choices"].items():
                 print(key, value)
@@ -105,24 +106,24 @@ def newGame():
             p2.add_points(player_2_score)
             update_leaderboard(p2.name, p2.score)
             
-        
 
 
-        
+
+
         user_decision = input(str("Do you want to keep playing? Type in Y for Yes or Q to quit:"))
-        
 
-    winner = determine_winner(p1, p2)
-    print("\n", winner)
 
-    stmt = select(score_leaderboard)
+        winner = determine_winner(p1, p2)
+        print("\n", winner)
 
-    with engine.connect() as connection:
-        df = pd.read_sql_query(stmt, connection)
+        stmt = select(score_leaderboard)
 
-    
-    print("\n=======Current Leaderboard==========")
-    print(df.to_string(index=False))
+        with engine.connect() as connection:
+            df = pd.read_sql_query(stmt, connection)
+
+
+        print("\n=======Current Leaderboard==========")
+        print(df.to_string(index=False))
 
 
 
