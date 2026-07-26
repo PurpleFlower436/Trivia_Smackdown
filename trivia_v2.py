@@ -1,5 +1,5 @@
 from player import Player
-from rich import print
+import ui
 import pandas as pd
 
 import random
@@ -29,13 +29,15 @@ from questions import QUESTION_BANK
 
 
 def newGame():
-    print("Welcome to Trivia Smackdown!")
-    print("You will have four categories to choose from: Marvel, World History, Pop Culture, and Disney World.")
+    ui.show_title("Welcome to Trivia Smackdown!")
+    ui.show_title("You will have four categories to choose from: Marvel, World History, Pop Culture, and Disney World.")
     print("")
-    print("You can choose between two levels, easy and hard, for each of the categories.")
-    print("You will be asked to change categories or finish playing at the end of each game. The final scores will be revealed at the end.")
+    ui.show_title("You can choose between two levels, easy and hard, for each of the categories.")
+    ui.show_title("You will be asked to change categories or finish playing at the end of each game. The final scores will be revealed at the end.")
     print("")
-    user_name = input(str("Enter your name player 1:"))
+
+    
+    user_name = input(str("Enter your name:"))
 
     p1 = Player(user_name)
 
@@ -47,12 +49,15 @@ def newGame():
     user_decision = "Y"
     while user_decision == "Y":
         while True:
-            user_picked_category = input(str("What category do you want? Type in the letter to the corresponding category \n a. marvel, b. history, c. pop culture, d. disney:"))
+            print("")
+            user_picked_category = input(str("What category do you want? Type in the letter that matches the corresponding category.\n" 
+            " a. marvel, b. history, c. pop culture, d. disney: ")).lower()
+          
 
             if user_picked_category in ["a", "b", "c", "d"]:
                 break
             else:
-                print("Invalid category choice! Please enter a, b, c, or d for your category.")
+                ui.show_error("Invalid category choice! Please enter a, b, c, or d for your category.")
             
 
         category_map = {
@@ -64,24 +69,20 @@ def newGame():
 
         question_category = category_map[user_picked_category]
 
-        question_difficulty = input(str("Do you want easy or hard questions? Type in easy or hard:"))
-
-        print("\Which computer bot mode do you want to play against?:")
-        print("a) easy")
-        print("b) medium")
+        print("")
+        question_difficulty = input(str("Do you want easy or hard questions? Type in easy or hard: "))
 
 
-
-        computer_bot_choice = input("Choose computer bot choice: ").lower()
+        print("")
+        computer_bot_choice = input(str("Choose computer bot choice. Type in a for easy or b for hard: ")).lower()
 
         questions = load_questions(question_category, question_difficulty)
 
 
         for question in questions:
 
-            print("\n" + question["question"] + "" + "\n")
-            for key, value in question["choices"].items():
-                print(key, value)
+            ui.show_question(question)
+            
 
 
             computer_bot = choose_computer_bot_mode(computer_bot_choice, question)
@@ -92,7 +93,7 @@ def newGame():
                     break
 
                 else:
-                    print("Invalid answer choice! Please enter a, b , c, or d. ")
+                    ui.show_error("Invalid answer choice! Please enter a, b , c, or d. ")
             bot_answer = computer_bot
 
             player_1_score = calculate_points(p1_answer, question["answer"])
