@@ -1,6 +1,6 @@
 import pytest 
-from utils import  determine_winner, is_valid_input, calculate_points
-from player import Player
+from src.utils import  determine_winner, is_valid_input, calculate_points
+from src.player import Player
 
 
 
