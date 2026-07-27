@@ -6,20 +6,31 @@ import random
 from sqlalchemy import select, desc
 from leaderboard import score_leaderboard, update_leaderboard, initialize_leaderboard, engine
 from utils import (
-    
     calculate_points,
     determine_winner,
     load_questions,
     is_valid_input
-    
-  
 )
 from bots import choose_computer_bot_mode
-
 from questions import QUESTION_BANK
 
 
 def newGame():
+    """
+    Runs the main gameplay loop for Trivia Smackdown.
+
+    This function controls the entire game flow from start to finish by running 
+    these simple steps:
+    1. Welcomes the player and explains the rules of Trivia Smackdown.
+    2. Takes the player's name and sets up the scoreboard tracking.
+    3. Starts a loop that lets the player keep playing new rounds until they decide to quit.
+    4. Asks the player to select a question category, difficulty, and computer bot opponent.
+    5. Loops through the trivia questions, making sure the player only inputs valid choices (a-f).
+    6. Calculates round points, updates scores, and saves them to the leaderboard database.
+    7. Declares the final match winner and prints out the updated standings table.
+
+    :return: None
+    """
     ui.show_title("Welcome to Trivia Smackdown!")
     ui.show_title("You will have four categories to choose from: Marvel, World History, Pop Culture, and Disney World.")
     print("")
