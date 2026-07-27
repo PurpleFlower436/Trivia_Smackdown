@@ -19,15 +19,6 @@ from bots import choose_computer_bot_mode
 from questions import QUESTION_BANK
 
 
-
-
-
-
-
-
-
-
-
 def newGame():
     ui.show_title("Welcome to Trivia Smackdown!")
     ui.show_title("You will have four categories to choose from: Marvel, World History, Pop Culture, and Disney World.")
