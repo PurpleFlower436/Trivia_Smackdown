@@ -1,0 +1,5 @@
+{
+    "name": "Trivia Smackdown Dev Environment",
+    "image": "://microsoft.com",
+    "postCreateCommand": "pip install -r requirements.txt"
+}
