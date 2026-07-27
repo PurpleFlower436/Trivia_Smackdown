@@ -56,7 +56,16 @@ def easy_bot(current_question):
 
 
 def choose_computer_bot_mode(bot_choice, current_question):
-   
+    """
+    Routes the execution path to the selected computer bot difficulty mode.
+
+    Evaluates the user's choice to return either the results of the random-guessing 
+    easy bot ('a') or the statistically balanced accuracy calculations of the medium bot ('b').
+
+    :param bot_choice: str option indicator ('a' for easy mode, 'b' for medium mode)
+    :param current_question: dict containing the question string, choices, and correct answer
+    :return: str representing the multiple-choice option key ('a', 'b', 'c', or 'd') picked by the bot
+    """
 
     if bot_choice == "a":
         return easy_bot(current_question)
