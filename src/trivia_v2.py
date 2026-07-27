@@ -1,18 +1,18 @@
-from player import Player
-import ui
+from src.player import Player
+import src.ui as ui
 import pandas as pd
 
 import random
 from sqlalchemy import select, desc
-from leaderboard import score_leaderboard, update_leaderboard, initialize_leaderboard, engine
-from utils import (
+from src.leaderboard import score_leaderboard, update_leaderboard, initialize_leaderboard, engine
+from src.utils import (
     calculate_points,
     determine_winner,
     load_questions,
     is_valid_input
 )
-from bots import choose_computer_bot_mode
-from questions import QUESTION_BANK
+from src.bots import choose_computer_bot_mode
+from src.questions import QUESTION_BANK
 
 
 def newGame():
