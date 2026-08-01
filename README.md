@@ -22,10 +22,18 @@ This is a screenshot of Trivia Smackdown being played in the terminal in VS Code
 - Category and difficulty selection for each player
 - Scoring system that tracks correct answers
 - Basic input validation and game flow control
+- Two computer opponents with easy and medium difficulty modes
+- Persistent leaderboard for storing and displaying final scores using SQLAlchemy
+- Automated testing and deployment through GitHub Actions CI/CD
+- Deployed for easy access and review through GitHub Codespaces
 
 
 ## Tech Stack
 - Python 3
+- SQLAlchemy
+- Pytest
+- GitHub Actions
+- GitHub Codespaces
 
 ## How to Run
 1. Clone the repository
@@ -38,3 +46,7 @@ This is a screenshot of Trivia Smackdown being played in the terminal in VS Code
 - Game loop and user input flow for two players
 - Scoring and category-selection logic
 - Tested the game by playing it repeatedly to debug issues and ensure correct game flow and results
+- Wrote 19 Pytest unit tests covering input validation, answer checking, scoring, and winner logic
+- Added two AI computer bots using randomized and probabilistic decision logic
+- Integrated SQLAlchemy to persist and display leaderboard data
+- Configured GitHub Actions to automate testing and deployment workflows
