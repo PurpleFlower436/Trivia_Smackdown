@@ -30,7 +30,7 @@ This is a screenshot of Trivia Smackdown being played in the terminal in VS Code
 
 ## Tech Stack
 - Python 3
-- SQLAlchemy
+- SQLite
 - Pytest
 - GitHub Actions
 - GitHub Codespaces
@@ -48,5 +48,5 @@ This is a screenshot of Trivia Smackdown being played in the terminal in VS Code
 - Tested the game by playing it repeatedly to debug issues and ensure correct game flow and results
 - Wrote 19 Pytest unit tests covering input validation, answer checking, scoring, and winner logic
 - Added two AI computer bots using randomized and probabilistic decision logic
-- Integrated SQLAlchemy to persist and display leaderboard data
+- Integrated SQLite to persist and display leaderboard data
 - Configured GitHub Actions to automate testing and deployment workflows
