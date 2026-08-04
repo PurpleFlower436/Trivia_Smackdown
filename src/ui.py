@@ -31,7 +31,7 @@ def show_question(question_dict):
     
     # 3. Print the answer choice options in clean amber/yellow
     for key, value in question_dict["choices"].items():
-        console.print(f"  \[[{color_choice}]{key}[/{color_choice}]] {value}")
+        console.print(f"[[{color_choice}]{key}[/{color_choice}]] {value}")
     console.print("") # Blank line for cleaner spacing
 
 def show_error(message):
