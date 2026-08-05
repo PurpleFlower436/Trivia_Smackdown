@@ -2,11 +2,12 @@
 
 This is a two-player Python trivia game played in the terminal. Each player chooses from four categories (Marvel, History, Disney World, Pop Culture) and an easy or hard difficulty, then answers five questions per round. After each round, players can choose to continue with a new category/difficulty or quit and see their final scores and the winner. 
 
-To play the game, run the `Trivia-V10.py` file.
 
-This is a screenshot of Trivia Smackdown being played in the terminal in VS Code.
+Here is a demo of Trivia Smackdown being played in GitHub Codespaces. 
 
-<img width="1542" height="396" alt="trivia_smackdown_demo" src="https://github.com/user-attachments/assets/9735b6ec-c4b8-4877-8736-0c1c3ae3ebe0" />
+<img width="700" alt="Trivia_Smackdown_demo" src="https://github.com/user-attachments/assets/cd06e04c-9f26-4075-89c1-62d9c01d6a33" />
+
+
 
 
 
@@ -36,14 +37,14 @@ This is a screenshot of Trivia Smackdown being played in the terminal in VS Code
 - GitHub Codespaces
 
 ## How to Run
-1. Clone the repository
-2. Install Python 3 if you don't have it
+1. Click on the Open in GitHub Codespaces badge. 
+2. Click Create
 3. Run:
-   python Trivia-V10.py
+   python3 -m src.trivia_v2
 
 
 ## What I Implemented
-- Game loop and user input flow for two players
+- Game loop and user input flow for player and computer player
 - Scoring and category-selection logic
 - Tested the game by playing it repeatedly to debug issues and ensure correct game flow and results
 - Wrote 19 Pytest unit tests covering input validation, answer checking, scoring, and winner logic
