@@ -38,7 +38,7 @@ Here is a demo of Trivia Smackdown being played in GitHub Codespaces.
 
 ## How to Run
 1. Click on the Open in GitHub Codespaces badge. 
-2. Click Create
+2. Click Create Codespace.
 3. Run:
    python3 -m src.trivia_v2
 
