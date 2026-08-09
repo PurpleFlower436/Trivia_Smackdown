@@ -44,7 +44,7 @@ Here is a demo of Trivia Smackdown being played in GitHub Codespaces.
 
 
 ## What I Implemented
-- Game loop and user input flow for player and computer player
+- Game loop and user input flow for player
 - Scoring and category-selection logic
 - Tested the game by playing it repeatedly to debug issues and ensure correct game flow and results
 - Wrote 19 Pytest unit tests covering input validation, answer checking, scoring, and winner logic
