@@ -1,6 +1,6 @@
 # Trivia_Smackdown
 
-This is a two-player Python trivia game played in the terminal. Each player chooses from four categories (Marvel, History, Disney World, Pop Culture) and an easy or hard difficulty, then answers five questions per round. After each round, players can choose to continue with a new category/difficulty or quit and see their final scores and the winner. 
+This is a single player Python trivia game played in GitHub Codespaces. Each player chooses from four categories (Marvel, History, Disney World, Pop Culture) and an easy or hard difficulty, then answers five questions per round. After each round, players can choose to continue with a new category/difficulty or quit and see their final scores and the winner. 
 
 
 Here is a demo of Trivia Smackdown being played in GitHub Codespaces. 
@@ -19,7 +19,7 @@ Here is a demo of Trivia Smackdown being played in GitHub Codespaces.
 
 
 ## Features
-- Two-player terminal-based game in Python
+- Single-player terminal-based game in Python
 - Category and difficulty selection for each player
 - Scoring system that tracks correct answers
 - Basic input validation and game flow control
