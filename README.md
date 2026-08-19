@@ -24,7 +24,7 @@ Here is a demo of Trivia Smackdown being played in GitHub Codespaces.
 - Scoring system that tracks correct answers
 - Basic input validation and game flow control
 - Two computer opponents with easy and medium difficulty modes
-- Persistent leaderboard for storing and displaying final scores using SQLAlchemy
+- Persistent leaderboard for storing and displaying final scores using SQLite
 - Automated testing and deployment through GitHub Actions CI/CD
 - Deployed for easy access and review through GitHub Codespaces
 
