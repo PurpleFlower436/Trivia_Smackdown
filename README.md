@@ -5,8 +5,7 @@ This is a single player Python trivia game played in GitHub Codespaces. Each pla
 
 Here is a demo of Trivia Smackdown being played in GitHub Codespaces. 
 
-<img width="900" alt="Trivia_Smackdown_demo" src="https://github.com/user-attachments/assets/cd06e04c-9f26-4075-89c1-62d9c01d6a33" />
-
+<img width="900" alt="Trivia_Smackdown_demo" src="https://github.com/user-attachments/assets/40be98e8-4d22-449f-814a-b64b19fb8e22" />
 
 
 
